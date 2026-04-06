@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AURA - Premium minimalist aesthetic clothing brand. Redefining modern luxury.">
+    <title>AURA | Modern Minimalist Clothing</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="logo">AURA</div>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#lookbook">Lookbook</a></li>
+            </ul>
+        </nav>
+        <div class="nav-actions">
+            <button class="icon-btn search-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            </button>
+            <button class="icon-btn cart-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero blur-load" style="background-image: url('assets/hero_image.png');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <h1>Redefining Shape.</h1>
+            <p>Elevate your wardrobe with minimalist, high-quality avant-garde essentials crafted for the modern era.</p>
+            <a href="#collections" class="btn-primary">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Featured Collection -->
+    <section id="collections" class="section collections">
+        <div class="section-header fade-in">
+            <h2>The Vanguard Series</h2>
+            <p>Signature pieces combining brutalist aesthetics with comfort.</p>
+        </div>
+
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card fade-in">
+                <div class="product-image">
+                    <img src="assets/product_1.png" alt="Oversized Essential Hoodie" loading="lazy">
+                    <div class="product-overlay">
+                        <button class="quick-add">Quick Add</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Oversized Essential Hoodie</h3>
+                    <span class="price">$140.00</span>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card fade-in" style="transition-delay: 0.1s;">
+                <div class="product-image">
+                    <img src="assets/product_2.png" alt="Utility Cargo Trousers" loading="lazy">
+                    <div class="product-overlay">
+                        <button class="quick-add">Quick Add</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Utility Cargo Trousers</h3>
+                    <span class="price">$185.00</span>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card fade-in" style="transition-delay: 0.2s;">
+                <div class="product-image">
+                    <img src="assets/product_3.png" alt="Monolith Trench Coat" loading="lazy">
+                    <div class="product-overlay">
+                        <button class="quick-add">Quick Add</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Monolith Trench Coat</h3>
+                    <span class="price">$320.00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Story/Mission -->
+    <section id="about" class="section split-layout fade-in">
+        <div class="split-image" style="background-image: url('assets/hero_image.png');"></div>
+        <div class="split-content">
+            <span class="subtitle">Ethos</span>
+            <h2>Form meets Void.</h2>
+            <p>AURA is born from the intersection of minimalist architecture and streetwear. We believe in clothing that speaks without shouting. Every seam, every textile choice, is ruthlessly edited down to absolute perfection.</p>
+            <a href="#" class="btn-secondary">Read Our Story</a>
+        </div>
+    </section>
+
+    <!-- Marquee Banner -->
+    <div class="marquee-wrapper">
+        <div class="marquee">
+            <span>• FREE WORLDWIDE SHIPPING • SUSTAINABLE MATERIALS • LIMITED DROPS • UNISEX FITS</span>
+            <span>• FREE WORLDWIDE SHIPPING • SUSTAINABLE MATERIALS • LIMITED DROPS • UNISEX FITS</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer fade-in">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo">AURA</div>
+                <p>Minimalism isn't a lack of something. It's simply the perfect amount of something.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">Tops</a></li>
+                    <li><a href="#">Bottoms</a></li>
+                    <li><a href="#">Outerwear</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Join the Void</h4>
+                <p>Subscribe for exclusive access to very limited drops.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit">→</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AURA Clothing. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">IG</a>
+                <a href="#">X</a>
+                <a href="#">TT</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS script -->
+    <script src="main.js"></script>
+</body>
+</html>
